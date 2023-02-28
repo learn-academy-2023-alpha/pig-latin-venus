@@ -1,4 +1,4 @@
-# 🐷 Pig Latin Activity
+<!-- # 🐷 Pig Latin Activity
 
 [Oday ouyay eakspay igpay atinlay?](http://www.wikihow.com/Speak-Pig-Latin)
 
@@ -104,4 +104,54 @@ Each team will give a brief (3 minute) presentation of their application. Presen
 - Full team: show off your application's user interface (UI)
 - First team member: What was your team's approach to solving this problem? Did the initial approach work out in the end?
 - Second team member: What was the hardest thing about this project? What is your biggest take away?
-- Third team member (if applicable): How did you manage the workflow in a group of three?
+- Third team member (if applicable): How did you manage the workflow in a group of three? -->
+
+
+Team Venus Pseudocode
+Project Name: Pig Latin Translator
+- Want to create a function called myPigLatinCodeHere that will accept a string as an argument
+- Goal: translate English words into Pig Latin
+- Tackle each story separately, one at a time
+- Once we get the functionality down for each story, in the end, it'll come together as one
+
+Story 1 Psuedocode
+- Checkout a new branch name vowel-functionality
+- Input is a word (string) that begins with a vowel
+- Create a function myPigLatinCodeHere
+- Using conditional statements, we will want to determine if the word begins a vowel
+- If it does begin with a vowel we'll want to add "way" to the end of that word using concatenation
+- Output would be that word with "way" added to the end
+
+
+Story 2 Psuedocode
+- Checkout a new branch name qu-functionality
+- Input is a word (string) that begins with "qu" in the first syllable
+- In the function, myPigLatinCodeHere, we will use conditional statements to determine if the word starts with "qu" 
+- If it does begin with "qu" we will want to move the "qu" to the end of the word using for loop?
+- Once the "qu" has been moved to the end of the word, we'll now want to add "ay" to the end of that new word
+- Output is the word translated to pig latin
+    - "qu" moved to the end of the word and then adding "ay" to the end of that
+
+
+Story 3 Psuedocode
+- Checkout a new branch name y-functionality
+- Input is a word (string) that has no vowels other than "y"
+- In the function, myPigLatinCodeHere, we'll use conditional statements to determine if the word has no other vowels other than "y"
+- If there are no other vowels other than "y" we will move the constonants to the end of the word
+- Then we will add "ay" to the end of that new word
+- Output is the word translated to pig latin
+    - The constonants moved to the end of the word and then adding "ay" to the end of that
+    - "fry" would be "yfray"
+
+
+Story 4 Pseudocode
+- Checkout a new branch name consonant-functionality
+- Input is a word (string) that starts with one or more consonants
+- In the function, myPigLatinCodeHere, we will use conditional statements to determine if the word starts with consonants
+- If it starts with one or more consonants, we will move those consonants to the end of the word
+- Then we will add "ay" to the end of that new word
+- Output is the word translated to pig latin
+    - The consonants moved to the end of the word and then adding "ay" to the end of that
+    - "through" would be "oughthray"
+
+
