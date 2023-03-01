@@ -31,16 +31,26 @@ const App = () => {
       })
       console.log("vowelsArray:", vowelsArray)
 
+   
       // ACTION ITEM: your Pig Latin logic goes here!
       // if (vowelsArray.indexOf(eachWord[0]) > -1)
       // if (vowelsArray === translatedWordsArray[0])
-      if (eachWord.includes(vowelsArray[0]))
+      if (vowelsArray.includes(eachWord[0])) {
+        return eachWord + "way" 
+      }else if (eachWord[0] == `q` && eachWord[1] == `u`){
+      return eachWord.split('').splice(0,1) + `ay`
+      }
+      
+
+      
 
     
 
       // ACTION ITEM: this return will be the output of your Pig Latin'd code
-      return eachWord + "way"
-    })
+  })
+
+  
+   
 
     // NO MODIFICATION NEEDED: once the code has been modified it gets joined from an array back to a string
     const translatedWords = translatedWordsArray.join(" ")
